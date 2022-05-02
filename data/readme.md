@@ -8,7 +8,7 @@
 3. Browse `planets.xlsx` and get familiar with the Planets-sheet in tabOTTR syntax.
 4. Run `planets.xlsx` together with `planet-tpl.ttl` through Lutra and generate a `.ttl`-file containing information from the spreadsheet.
 
-_TIP: Take a look at the slides to see what flags are needed for the Lutra command._
+*Lutra command:* `java -jar lutra.jar -l .\planet-tpl.ttl -L stottr -I tabottr -f .\planets.xlsx -o planet-output.ttl`
 
 5. Upload the output-file into Fuseki and browse through SPARQL.
 ```
