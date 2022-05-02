@@ -1,0 +1,1067 @@
+@prefix o-sh: <http://tpl.ottr.xyz/shacl/0.1/> .
+@prefix : <http://data.capgemini.com/astronomy/> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix o-rdfs: <http://tpl.ottr.xyz/rdfs/0.2/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Moon   rdfs:label  "Moon"@en .
+
+:Earth  :satellite  :Moon .
+
+:Moon   :radius   "1737.5±0.1"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Phobos  rdfs:label  "Phobos"@en .
+
+:Mars   :satellite  :Phobos .
+
+:Phobos  :radius  "11.1±0.15"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Deimos  rdfs:label  "Deimos"@en .
+
+:Mars   :satellite  :Deimos .
+
+:Deimos  :radius  "6.2±0.18"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Io     rdfs:label  "Io"@en .
+
+:Jupiter  :satellite  :Io .
+
+:Io     :radius   "1821.6±0.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Europa  rdfs:label  "Europa"@en .
+
+:Jupiter  :satellite  :Europa .
+
+:Europa  :radius  "1560.8±0.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Ganymede  rdfs:label  "Ganymede"@en .
+
+:Jupiter  :satellite  :Ganymede .
+
+:Ganymede  :radius  "2631.2±1.7"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Callisto  rdfs:label  "Callisto"@en .
+
+:Jupiter  :satellite  :Callisto .
+
+:Callisto  :radius  "2410.3±1.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Amalthea  rdfs:label  "Amalthea"@en .
+
+:Jupiter  :satellite  :Amalthea .
+
+:Amalthea  :radius  "83.45±2.4"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Himalia  rdfs:label  "Himalia"@en .
+
+:Jupiter  :satellite  :Himalia .
+
+:Himalia  :radius  "85"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Elara  rdfs:label  "Elara"@en .
+
+:Jupiter  :satellite  :Elara .
+
+:Elara  :radius   "43"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Pasiphae  rdfs:label  "Pasiphae"@en .
+
+:Jupiter  :satellite  :Pasiphae .
+
+:Pasiphae  :radius  "30"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Sinope  rdfs:label  "Sinope"@en .
+
+:Jupiter  :satellite  :Sinope .
+
+:Sinope  :radius  "19"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Lysithea  rdfs:label  "Lysithea"@en .
+
+:Jupiter  :satellite  :Lysithea .
+
+:Lysithea  :radius  "18"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Carme  rdfs:label  "Carme"@en .
+
+:Jupiter  :satellite  :Carme .
+
+:Carme  :radius   "23"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Ananke  rdfs:label  "Ananke"@en .
+
+:Jupiter  :satellite  :Ananke .
+
+:Ananke  :radius  "14"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Leda   rdfs:label  "Leda"@en .
+
+:Jupiter  :satellite  :Leda .
+
+:Leda   :radius   "10"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Thebe  rdfs:label  "Thebe"@en .
+
+:Jupiter  :satellite  :Thebe .
+
+:Thebe  :radius   "49.3±2.0"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Adrastea  rdfs:label  "Adrastea"@en .
+
+:Jupiter  :satellite  :Adrastea .
+
+:Adrastea  :radius  "8.2±2.0"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Metis  rdfs:label  "Metis"@en .
+
+:Jupiter  :satellite  :Metis .
+
+:Metis  :radius   "21.5±2.0"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Callirrhoe  rdfs:label  "Callirrhoe"@en .
+
+:Jupiter  :satellite  :Callirrhoe .
+
+:Callirrhoe  :radius  "4.3"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Themisto  rdfs:label  "Themisto"@en .
+
+:Jupiter  :satellite  :Themisto .
+
+:Themisto  :radius  "4"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Megaclite  rdfs:label  "Megaclite"@en .
+
+:Jupiter  :satellite  :Megaclite .
+
+:Megaclite  :radius  "2.7"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Taygete  rdfs:label  "Taygete"@en .
+
+:Jupiter  :satellite  :Taygete .
+
+:Taygete  :radius  "2.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Chaldene  rdfs:label  "Chaldene"@en .
+
+:Jupiter  :satellite  :Chaldene .
+
+:Chaldene  :radius  "1.9"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Harpalyke  rdfs:label  "Harpalyke"@en .
+
+:Jupiter  :satellite  :Harpalyke .
+
+:Harpalyke  :radius  "2.2"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Kalyke  rdfs:label  "Kalyke"@en .
+
+:Jupiter  :satellite  :Kalyke .
+
+:Kalyke  :radius  "2.6"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Iocaste  rdfs:label  "Iocaste"@en .
+
+:Jupiter  :satellite  :Iocaste .
+
+:Iocaste  :radius  "2.6"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Erinome  rdfs:label  "Erinome"@en .
+
+:Jupiter  :satellite  :Erinome .
+
+:Erinome  :radius  "1.6"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Isonoe  rdfs:label  "Isonoe"@en .
+
+:Jupiter  :satellite  :Isonoe .
+
+:Isonoe  :radius  "1.9"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Praxidike  rdfs:label  "Praxidike"@en .
+
+:Jupiter  :satellite  :Praxidike .
+
+:Praxidike  :radius  "3.4"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Autonoe  rdfs:label  "Autonoe"@en .
+
+:Jupiter  :satellite  :Autonoe .
+
+:Autonoe  :radius  "2"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Thyone  rdfs:label  "Thyone"@en .
+
+:Jupiter  :satellite  :Thyone .
+
+:Thyone  :radius  "2"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Hermippe  rdfs:label  "Hermippe"@en .
+
+:Jupiter  :satellite  :Hermippe .
+
+:Hermippe  :radius  "2"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Aitne  rdfs:label  "Aitne"@en .
+
+:Jupiter  :satellite  :Aitne .
+
+:Aitne  :radius   "1.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Eurydome  rdfs:label  "Eurydome"@en .
+
+:Jupiter  :satellite  :Eurydome .
+
+:Eurydome  :radius  "1.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Euanthe  rdfs:label  "Euanthe"@en .
+
+:Jupiter  :satellite  :Euanthe .
+
+:Euanthe  :radius  "1.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Euporie  rdfs:label  "Euporie"@en .
+
+:Jupiter  :satellite  :Euporie .
+
+:Euporie  :radius  "1"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Orthosie  rdfs:label  "Orthosie"@en .
+
+:Jupiter  :satellite  :Orthosie .
+
+:Orthosie  :radius  "1"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Sponde  rdfs:label  "Sponde"@en .
+
+:Jupiter  :satellite  :Sponde .
+
+:Sponde  :radius  "1"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Kale   rdfs:label  "Kale"@en .
+
+:Jupiter  :satellite  :Kale .
+
+:Kale   :radius   "1"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Pasithee  rdfs:label  "Pasithee"@en .
+
+:Jupiter  :satellite  :Pasithee .
+
+:Pasithee  :radius  "1"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Hegemone  rdfs:label  "Hegemone"@en .
+
+:Jupiter  :satellite  :Hegemone .
+
+:Hegemone  :radius  "1.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Mneme  rdfs:label  "Mneme"@en .
+
+:Jupiter  :satellite  :Mneme .
+
+:Mneme  :radius   "1"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Aoede  rdfs:label  "Aoede"@en .
+
+:Jupiter  :satellite  :Aoede .
+
+:Aoede  :radius   "2"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Thelxinoe  rdfs:label  "Thelxinoe"@en .
+
+:Jupiter  :satellite  :Thelxinoe .
+
+:Thelxinoe  :radius  "1"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Arche  rdfs:label  "Arche"@en .
+
+:Jupiter  :satellite  :Arche .
+
+:Arche  :radius   "1.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Kallichore  rdfs:label  "Kallichore"@en .
+
+:Jupiter  :satellite  :Kallichore .
+
+:Kallichore  :radius  "1"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Helike  rdfs:label  "Helike"@en .
+
+:Jupiter  :satellite  :Helike .
+
+:Helike  :radius  "2"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Carpo  rdfs:label  "Carpo"@en .
+
+:Jupiter  :satellite  :Carpo .
+
+:Carpo  :radius   "1.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Eukelade  rdfs:label  "Eukelade"@en .
+
+:Jupiter  :satellite  :Eukelade .
+
+:Eukelade  :radius  "2"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Cyllene  rdfs:label  "Cyllene"@en .
+
+:Jupiter  :satellite  :Cyllene .
+
+:Cyllene  :radius  "1"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Kore   rdfs:label  "Kore"@en .
+
+:Jupiter  :satellite  :Kore .
+
+:Kore   :radius   "1"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Herse  rdfs:label  "Herse"@en .
+
+:Jupiter  :satellite  :Herse .
+
+:Herse  :radius   "1"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Mimas  rdfs:label  "Mimas"@en .
+
+:Saturn  :satellite  :Mimas .
+
+:Mimas  :radius   "198.20±0.25"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Enceladus  rdfs:label  "Enceladus"@en .
+
+:Saturn  :satellite  :Enceladus .
+
+:Enceladus  :radius  "252.10±0.10"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Tethys  rdfs:label  "Tethys"@en .
+
+:Saturn  :satellite  :Tethys .
+
+:Tethys  :radius  "533.00±0.70"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Dione  rdfs:label  "Dione"@en .
+
+:Saturn  :satellite  :Dione .
+
+:Dione  :radius   "561.70±0.45"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Rhea   rdfs:label  "Rhea"@en .
+
+:Saturn  :satellite  :Rhea .
+
+:Rhea   :radius   "764.30±1.10"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Titan  rdfs:label  "Titan"@en .
+
+:Saturn  :satellite  :Titan .
+
+:Titan  :radius   "2574.73±0.09"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Hyperion  rdfs:label  "Hyperion"@en .
+
+:Saturn  :satellite  :Hyperion .
+
+:Hyperion  :radius  "135.00±4.00"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Iapetus  rdfs:label  "Iapetus"@en .
+
+:Saturn  :satellite  :Iapetus .
+
+:Iapetus  :radius  "735.60±1.50"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Phoebe  rdfs:label  "Phoebe"@en .
+
+:Saturn  :satellite  :Phoebe .
+
+:Phoebe  :radius  "106.50±0.70"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Janus  rdfs:label  "Janus"@en .
+
+:Saturn  :satellite  :Janus .
+
+:Janus  :radius   "89.5±1.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Epimetheus  rdfs:label  "Epimetheus"@en .
+
+:Saturn  :satellite  :Epimetheus .
+
+:Epimetheus  :radius  "58.1±1.8"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Helene  rdfs:label  "Helene"@en .
+
+:Saturn  :satellite  :Helene .
+
+:Helene  :radius  "17.6±0.4"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Telesto  rdfs:label  "Telesto"@en .
+
+:Saturn  :satellite  :Telesto .
+
+:Telesto  :radius  "12.4±0.4"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Calypso  rdfs:label  "Calypso"@en .
+
+:Saturn  :satellite  :Calypso .
+
+:Calypso  :radius  "10.7±0.7"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Atlas  rdfs:label  "Atlas"@en .
+
+:Saturn  :satellite  :Atlas .
+
+:Atlas  :radius   "15.1±1.2"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Prometheus  rdfs:label  "Prometheus"@en .
+
+:Saturn  :satellite  :Prometheus .
+
+:Prometheus  :radius  "43.1±2.7"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Pandora  rdfs:label  "Pandora"@en .
+
+:Saturn  :satellite  :Pandora .
+
+:Pandora  :radius  "40.7±1.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Pan    rdfs:label  "Pan"@en .
+
+:Saturn  :satellite  :Pan .
+
+:Pan    :radius   "14.1±1.3"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Methone  rdfs:label  "Methone"@en .
+
+:Saturn  :satellite  :Methone .
+
+:Methone  :radius  "1.6±0.6"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Pallene  rdfs:label  "Pallene"@en .
+
+:Saturn  :satellite  :Pallene .
+
+:Pallene  :radius  "2.5±0.6"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Polydeuces  rdfs:label  "Polydeuces"@en .
+
+:Saturn  :satellite  :Polydeuces .
+
+:Polydeuces  :radius  "1.3±0.4"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Daphnis  rdfs:label  "Daphnis"@en .
+
+:Saturn  :satellite  :Daphnis .
+
+:Daphnis  :radius  "3.8±0.8"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Anthe  rdfs:label  "Anthe"@en .
+
+:Saturn  :satellite  :Anthe .
+
+:Anthe  :radius   "0.9"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Aegaeon  rdfs:label  "Aegaeon"@en .
+
+:Saturn  :satellite  :Aegaeon .
+
+:Aegaeon  :radius  "0.3"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Ymir   rdfs:label  "Ymir"@en .
+
+:Saturn  :satellite  :Ymir .
+
+:Ymir   :radius   "9"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Paaliaq  rdfs:label  "Paaliaq"@en .
+
+:Saturn  :satellite  :Paaliaq .
+
+:Paaliaq  :radius  "11"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Tarvos  rdfs:label  "Tarvos"@en .
+
+:Saturn  :satellite  :Tarvos .
+
+:Tarvos  :radius  "7.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Ijiraq  rdfs:label  "Ijiraq"@en .
+
+:Saturn  :satellite  :Ijiraq .
+
+:Ijiraq  :radius  "6"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Suttungr  rdfs:label  "Suttungr"@en .
+
+:Saturn  :satellite  :Suttungr .
+
+:Suttungr  :radius  "3.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Kiviuq  rdfs:label  "Kiviuq"@en .
+
+:Saturn  :satellite  :Kiviuq .
+
+:Kiviuq  :radius  "8"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Mundilfari  rdfs:label  "Mundilfari"@en .
+
+:Saturn  :satellite  :Mundilfari .
+
+:Mundilfari  :radius  "3.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Albiorix  rdfs:label  "Albiorix"@en .
+
+:Saturn  :satellite  :Albiorix .
+
+:Albiorix  :radius  "16"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Skathi  rdfs:label  "Skathi"@en .
+
+:Saturn  :satellite  :Skathi .
+
+:Skathi  :radius  "4"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Erriapus  rdfs:label  "Erriapus"@en .
+
+:Saturn  :satellite  :Erriapus .
+
+:Erriapus  :radius  "5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Siarnaq  rdfs:label  "Siarnaq"@en .
+
+:Saturn  :satellite  :Siarnaq .
+
+:Siarnaq  :radius  "20"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Thrymr  rdfs:label  "Thrymr"@en .
+
+:Saturn  :satellite  :Thrymr .
+
+:Thrymr  :radius  "3.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Narvi  rdfs:label  "Narvi"@en .
+
+:Saturn  :satellite  :Narvi .
+
+:Narvi  :radius   "3.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Aegir  rdfs:label  "Aegir"@en .
+
+:Saturn  :satellite  :Aegir .
+
+:Aegir  :radius   "3"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Bebhionn  rdfs:label  "Bebhionn"@en .
+
+:Saturn  :satellite  :Bebhionn .
+
+:Bebhionn  :radius  "3"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Bergelmir  rdfs:label  "Bergelmir"@en .
+
+:Saturn  :satellite  :Bergelmir .
+
+:Bergelmir  :radius  "3"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Bestla  rdfs:label  "Bestla"@en .
+
+:Saturn  :satellite  :Bestla .
+
+:Bestla  :radius  "3.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Farbauti  rdfs:label  "Farbauti"@en .
+
+:Saturn  :satellite  :Farbauti .
+
+:Farbauti  :radius  "2.5"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Fenrir  rdfs:label  "Fenrir"@en .
+
+:Saturn  :satellite  :Fenrir .
+
+:Fenrir  :radius  "2"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Fornjot  rdfs:label  "Fornjot"@en .
+
+:Saturn  :satellite  :Fornjot .
+
+:Fornjot  :radius  "3"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Hati   rdfs:label  "Hati"@en .
+
+:Saturn  :satellite  :Hati .
+
+:Hati   :radius   "3"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Hyrrokkin  rdfs:label  "Hyrrokkin"@en .
+
+:Saturn  :satellite  :Hyrrokkin .
+
+:Hyrrokkin  :radius  "3"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Kari   rdfs:label  "Kari"@en .
+
+:Saturn  :satellite  :Kari .
+
+:Kari   :radius   "3"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Loge   rdfs:label  "Loge"@en .
+
+:Saturn  :satellite  :Loge .
+
+:Loge   :radius   "3"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Skoll  rdfs:label  "Skoll"@en .
+
+:Saturn  :satellite  :Skoll .
+
+:Skoll  :radius   "3"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Surtur  rdfs:label  "Surtur"@en .
+
+:Saturn  :satellite  :Surtur .
+
+:Surtur  :radius  "3"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Jarnsaxa  rdfs:label  "Jarnsaxa"@en .
+
+:Saturn  :satellite  :Jarnsaxa .
+
+:Jarnsaxa  :radius  "3"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Greip  rdfs:label  "Greip"@en .
+
+:Saturn  :satellite  :Greip .
+
+:Greip  :radius   "3"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Tarqeq  rdfs:label  "Tarqeq"@en .
+
+:Saturn  :satellite  :Tarqeq .
+
+:Tarqeq  :radius  "3"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Ariel  rdfs:label  "Ariel"@en .
+
+:Uranus  :satellite  :Ariel .
+
+:Ariel  :radius   "578.9±0.6"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Umbriel  rdfs:label  "Umbriel"@en .
+
+:Uranus  :satellite  :Umbriel .
+
+:Umbriel  :radius  "584.7±2.8"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Titania  rdfs:label  "Titania"@en .
+
+:Uranus  :satellite  :Titania .
+
+:Titania  :radius  "788.9±1.8"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Oberon  rdfs:label  "Oberon"@en .
+
+:Uranus  :satellite  :Oberon .
+
+:Oberon  :radius  "761.4±2.6"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Miranda  rdfs:label  "Miranda"@en .
+
+:Uranus  :satellite  :Miranda .
+
+:Miranda  :radius  "235.8±0.7"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Cordelia  rdfs:label  "Cordelia"@en .
+
+:Uranus  :satellite  :Cordelia .
+
+:Cordelia  :radius  "20.1±3."^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Ophelia  rdfs:label  "Ophelia"@en .
+
+:Uranus  :satellite  :Ophelia .
+
+:Ophelia  :radius  "21.4±4."^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Bianca  rdfs:label  "Bianca"@en .
+
+:Uranus  :satellite  :Bianca .
+
+:Bianca  :radius  "27±2"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Cressida  rdfs:label  "Cressida"@en .
+
+:Uranus  :satellite  :Cressida .
+
+:Cressida  :radius  "41±2"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Desdemona  rdfs:label  "Desdemona"@en .
+
+:Uranus  :satellite  :Desdemona .
+
+:Desdemona  :radius  "35±4"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Juliet  rdfs:label  "Juliet"@en .
+
+:Uranus  :satellite  :Juliet .
+
+:Juliet  :radius  "53±4"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Portia  rdfs:label  "Portia"@en .
+
+:Uranus  :satellite  :Portia .
+
+:Portia  :radius  "70±4"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Rosalind  rdfs:label  "Rosalind"@en .
+
+:Uranus  :satellite  :Rosalind .
+
+:Rosalind  :radius  "36±6"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Belinda  rdfs:label  "Belinda"@en .
+
+:Uranus  :satellite  :Belinda .
+
+:Belinda  :radius  "45±8"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Puck   rdfs:label  "Puck"@en .
+
+:Uranus  :satellite  :Puck .
+
+:Puck   :radius   "81±2"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Caliban  rdfs:label  "Caliban"@en .
+
+:Uranus  :satellite  :Caliban .
+
+:Caliban  :radius  "36"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Sycorax  rdfs:label  "Sycorax"@en .
+
+:Uranus  :satellite  :Sycorax .
+
+:Sycorax  :radius  "75"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Prospero  rdfs:label  "Prospero"@en .
+
+:Uranus  :satellite  :Prospero .
+
+:Prospero  :radius  "25"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Setebos  rdfs:label  "Setebos"@en .
+
+:Uranus  :satellite  :Setebos .
+
+:Setebos  :radius  "24"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Stephano  rdfs:label  "Stephano"@en .
+
+:Uranus  :satellite  :Stephano .
+
+:Stephano  :radius  "16"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Trinculo  rdfs:label  "Trinculo"@en .
+
+:Uranus  :satellite  :Trinculo .
+
+:Trinculo  :radius  "9"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Francisco  rdfs:label  "Francisco"@en .
+
+:Uranus  :satellite  :Francisco .
+
+:Francisco  :radius  "11"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Margaret  rdfs:label  "Margaret"@en .
+
+:Uranus  :satellite  :Margaret .
+
+:Margaret  :radius  "10"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Ferdinand  rdfs:label  "Ferdinand"@en .
+
+:Uranus  :satellite  :Ferdinand .
+
+:Ferdinand  :radius  "10"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Perdita  rdfs:label  "Perdita"@en .
+
+:Uranus  :satellite  :Perdita .
+
+:Perdita  :radius  "13±1"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Mab    rdfs:label  "Mab"@en .
+
+:Uranus  :satellite  :Mab .
+
+:Mab    :radius   "12±1"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Cupid  rdfs:label  "Cupid"@en .
+
+:Uranus  :satellite  :Cupid .
+
+:Cupid  :radius   "9±1"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Triton  rdfs:label  "Triton"@en .
+
+:Neptune  :satellite  :Triton .
+
+:Triton  :radius  "1353.4±0.9"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Nereid  rdfs:label  "Nereid"@en .
+
+:Neptune  :satellite  :Nereid .
+
+:Nereid  :radius  "170.±25."^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Naiad  rdfs:label  "Naiad"@en .
+
+:Neptune  :satellite  :Naiad .
+
+:Naiad  :radius   "33.±3."^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Thalassa  rdfs:label  "Thalassa"@en .
+
+:Neptune  :satellite  :Thalassa .
+
+:Thalassa  :radius  "41.±3."^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Despina  rdfs:label  "Despina"@en .
+
+:Neptune  :satellite  :Despina .
+
+:Despina  :radius  "75.±3."^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Galatea  rdfs:label  "Galatea"@en .
+
+:Neptune  :satellite  :Galatea .
+
+:Galatea  :radius  "88.±4."^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Larissa  rdfs:label  "Larissa"@en .
+
+:Neptune  :satellite  :Larissa .
+
+:Larissa  :radius  "97.±3."^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Proteus  rdfs:label  "Proteus"@en .
+
+:Neptune  :satellite  :Proteus .
+
+:Proteus  :radius  "210.±7."^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Halimede  rdfs:label  "Halimede"@en .
+
+:Neptune  :satellite  :Halimede .
+
+:Halimede  :radius  "31"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Psamathe  rdfs:label  "Psamathe"@en .
+
+:Neptune  :satellite  :Psamathe .
+
+:Psamathe  :radius  "20"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Sao    rdfs:label  "Sao"@en .
+
+:Neptune  :satellite  :Sao .
+
+:Sao    :radius   "22"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Laomedeia  rdfs:label  "Laomedeia"@en .
+
+:Neptune  :satellite  :Laomedeia .
+
+:Laomedeia  :radius  "21"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Neso   rdfs:label  "Neso"@en .
+
+:Neptune  :satellite  :Neso .
+
+:Neso   :radius   "30"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Charon  rdfs:label  "Charon"@en .
+
+:Pluto  :satellite  :Charon .
+
+:Charon  :radius  "603.6±1.4"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Nix    rdfs:label  "Nix"@en .
+
+:Pluto  :satellite  :Nix .
+
+:Nix    :radius   "23.0±2."^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Hydra  rdfs:label  "Hydra"@en .
+
+:Pluto  :satellite  :Hydra .
+
+:Hydra  :radius   "30.5±4."^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Kerberos  rdfs:label  "Kerberos"@en .
+
+:Pluto  :satellite  :Kerberos .
+
+:Kerberos  :radius  "14"^^unit:KiloM ;
+        rdf:type  :Satellite .
+
+:Styx   rdfs:label  "Styx"@en .
+
+:Pluto  :satellite  :Styx .
+
+:Styx   :radius   "10"^^unit:KiloM ;
+        rdf:type  :Satellite .

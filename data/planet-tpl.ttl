@@ -17,12 +17,12 @@
     unit:AU ?aphelion ,
     unit:DAY ?orbit ,
     unit:KiloPA ?pressure ,
-    xsd:boolean ?ringSystem ,
-    xsd:boolean ?magneticField ,
-    NEList<rdf:langString> ?label 
+    ? xsd:boolean ?ringSystem ,
+    ? xsd:boolean ?magneticField ,
+     ?label 
 ] :: {
     o-rdf:Type(?identifier, :Planet) , 
-    cross | o-rdfs:Label(?identifier, ++?label) ,
+    ottr:Triple(?identifier, rdfs:label, ?label) ,
     ottr:Triple(?identifier, :perihelion, ?perihelion) ,
     ottr:Triple(?identifier, :aphelion, ?aphelion) ,
     ottr:Triple(?identifier, :diameter, ?diameter) ,
