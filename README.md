@@ -1,6 +1,8 @@
 # ottr-masterclass
 Tutorial and talk about the Reasonable Ontology Templates at the Knowledge Graph Conference 2022.
 
+Masterclass at the [Knowledge Graph Conference](https://www.knowledgegraph.tech/) 2023.
+
 Explore OTTR in the playground [WebLutra](https://weblutra.ottr.xyz/).
 
 Join the conversation at the [OTTR channel at Gitter](https://gitter.im/ottr-talk/community).
