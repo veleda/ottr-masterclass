@@ -14,3 +14,7 @@ java -jar lutra.jar -l tpl.ttl -L stottr -I tabottr -f data.xlsx -o output.ttl
 5. Open the sheet Satellites OTTR and add tabOTTR flavoured syntax for serialization.
 6. Write a `:SatelliteTemplate` in the `tpl.ttl` file for serializing the new data.
 7. Run through Lutra.
+
+### Nice links (without .xyz domain)
+* [stOTTR Spec](https://gitlab.com/ottr/spec/stOTTR/-/tree/develop)
+* [tabOTTR Spec](https://gitlab.com/ottr/spec/tabOTTR/-/tree/develop)
